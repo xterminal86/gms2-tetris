@@ -29,7 +29,7 @@ score = 0;
 
 global.IsGameOver = false;
 
-global.CurrentTit = 0;
+global.CurrentTit = irandom(sprite_get_number(tits) - 1);
 
 global.CurrentFigure = noone;
 global.NextFigure = irandom(Figures.FigLine);
