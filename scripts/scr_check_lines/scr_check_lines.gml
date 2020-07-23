@@ -16,7 +16,7 @@ for (var rows = 0; rows < array_length_1d(linesNums); rows++)
   for (var cols = 0; cols < 10; cols++)
   {
     var wCoords = scr_AtW(cols, linesNums[rows]);
-    instance_create_layer(wCoords[0], wCoords[1], "Instances", objExplosion);
+    instance_create_layer(wCoords[0] + 6, wCoords[1] + 6, "Instances", objExplosion);
   }  
 }
 

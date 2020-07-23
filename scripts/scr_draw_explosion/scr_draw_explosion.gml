@@ -6,7 +6,7 @@ for (var i = 0; i < maxParticles; i++)
 {
   curParticle = instance_create_layer(x, 
                                       y, 
-                                      "Instances", 
+                                      "Explosions", 
                                       objParticle);
                                       
   with (curParticle)

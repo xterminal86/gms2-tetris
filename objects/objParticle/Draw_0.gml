@@ -1,6 +1,6 @@
 /// @description
 
-var drawColor = c_yellow;
+var drawColor = c_white;
 
 draw_sprite_general(sprite, 0, left, top, width, height, x, y, 1, 1, 0, drawColor, drawColor, drawColor, drawColor, alpha);
 
