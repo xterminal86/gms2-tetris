@@ -27,8 +27,8 @@ if (global.IsGameOver)
 {
   var text = "GAME OVER M8!";
   
-  var hw = window_get_width() / 2;
-  var hh = window_get_height() / 2;
+  //var hw = window_get_width() / 2;
+  //var hh = window_get_height() / 2;
   
   //scr_draw_textbox(hw, hh, text);
   scr_draw_textbox(LeftmostSquare + 14 * BlockSize, UpmostSquare + 20 * BlockSize, text);

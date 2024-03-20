@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "27cdf5ec-c3f2-4909-9123-28d3889406cf",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "79215301-510e-4b03-9c42-a263a2434e52",
             "Value": {
                 "id": "9d364792-8e03-4312-9de2-40fb545d9f4e",
@@ -308,6 +316,14 @@
                 "id": "c37e53f2-31ab-4468-987b-55b2c195282f",
                 "resourcePath": "scripts\\scr_can_move\\scr_can_move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "7d42f140-f88c-4279-997d-586f63ad5616",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
             }
         },
         {
@@ -348,6 +364,14 @@
                 "id": "918caf1d-e741-4ce6-9d9f-f6308737b15a",
                 "resourcePath": "objects\\objBarV\\objBarV.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "248d05d3-aed2-4130-8d99-b4369a64b28e",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
             }
         },
         {
@@ -524,6 +548,14 @@
                 "id": "4fd1329b-4aab-4070-97b6-3997a7a99e69",
                 "resourcePath": "scripts\\scr_grid_update_position\\scr_grid_update_position.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "8416105f-19bc-4b8f-b0de-5149a96b52bf",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
             }
         },
         {

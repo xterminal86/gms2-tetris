@@ -32,10 +32,10 @@ ds_list_destroy(global.MapGrid);
 
 global.MapGrid = ds_list_create();
 
-for (var i = 0; i < 20; i++)
+for (var i = 0; i < CupHeight; i++)
 {
   var row = ds_list_create();
-  for (var j = 0; j < 10; j++)
+  for (var j = 0; j < CupWidth; j++)
   {
     ds_list_add(row, 0);
   }
@@ -44,9 +44,9 @@ for (var i = 0; i < 20; i++)
 }
 
 global.BlocksRef[0, 0] = 0;
-for (var rows = 0; rows < 20; rows++)
+for (var rows = 0; rows < CupHeight; rows++)
 {
-  for (var cols = 0; cols < 10; cols++)
+  for (var cols = 0; cols < CupWidth; cols++)
   {
     global.BlocksRef[rows, cols] = 0;
   }

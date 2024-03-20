@@ -1,6 +1,6 @@
-for (var rows = 0; rows < 20; rows++)
+for (var rows = 0; rows < CupHeight; rows++)
 {
-  for (var cols = 0; cols < 10; cols++)
+  for (var cols = 0; cols < CupWidth; cols++)
   {
     scr_destroy_block(rows, cols);
   }  

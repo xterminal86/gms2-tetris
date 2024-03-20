@@ -1,4 +1,4 @@
-for (var row = figurePosY; row < 20; row++)
+for (var row = figurePosY; row < CupHeight; row++)
 {
   if (scr_can_fall())
   {

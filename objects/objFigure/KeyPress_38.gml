@@ -6,7 +6,7 @@ angle %= 360;
 if (!scr_can_move(figurePosX))
 {
   angle -= 90;
-  
+
   if (angle < 0)
   {
     angle += 360;

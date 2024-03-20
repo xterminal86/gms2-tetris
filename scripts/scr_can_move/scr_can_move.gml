@@ -1,5 +1,10 @@
 var newPosX = argument0;
 
+if (figurePosY >= 18)
+{
+  return false;
+}
+
 var lx = 0;
 var hx = 0;
 
@@ -58,8 +63,7 @@ switch (figType)
       hx = newPosX;
     }
   }
-  break;
-  
+  break;  
 }
 
 return scr_can_be_placed(newPosX, hx);
